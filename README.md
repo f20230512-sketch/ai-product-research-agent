@@ -5,7 +5,7 @@ Autonomous AI workflow that converts Reddit and Hacker News discussions into str
 ## Tech Stack
 - n8n
 - Ollama
-- Llama 3
+- Phi 3
 - REST APIs
 - JavaScript
 
