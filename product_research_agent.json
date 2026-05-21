@@ -7,7 +7,7 @@
         "url": "http://localhost:11434/api/generate",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={\n  \"model\": \"llama3\",\n  \"prompt\": \"You are a product research assistant. A user wants to research the topic: '{{ $('Set').item.json.topic }}'. Generate exactly 10 search keywords related to this topic that would help find relevant discussions on Reddit and Hacker News. Return ONLY a JSON array of 10 strings, nothing else. Example format: [\\\"keyword1\\\", \\\"keyword2\\\", \\\"keyword3\\\"]\",\n  \"stream\": false\n}",
+        "jsonBody": "={\n  \"model\": \"phi3\",\n  \"prompt\": \"You are a product research assistant. A user wants to research the topic: '{{ $('Set').item.json.topic }}'. Generate exactly 10 search keywords related to this topic that would help find relevant discussions on Reddit and Hacker News. Return ONLY a JSON array of 10 strings, nothing else. Example format: [\\\"keyword1\\\", \\\"keyword2\\\", \\\"keyword3\\\"]\",\n  \"stream\": false\n}",
         "options": {}
       },
       "type": "n8n-nodes-base.httpRequest",
